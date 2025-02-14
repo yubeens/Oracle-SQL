@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="EMP" directorySegmentName="seg_0" id="348E713F-A9A7-8863-57E9-319812E9A58D">
+<createdBy>it</createdBy>
+<createdTime>2025-02-14 01:47:47 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<schemaObject>3D942C4F-D8B7-67C6-8034-A601D638D2E3</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>E1F276F4-A931-C3B5-913E-18E40B1C3D15</segment>
+<tableSpace>D6D4C089-BB2B-A224-554B-2A07C5DA4342</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="MGR" id="31210691-784C-9C76-CD7B-55011981A482">
+<createdBy>it</createdBy>
+<createdTime>2025-02-14 01:47:47 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="EMPNO" id="452E6DE0-572F-0AAA-49DC-4D7786DE188C">
+<createdBy>it</createdBy>
+<createdTime>2025-02-14 01:47:47 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="JOB" id="5589C2AB-8205-09D8-B108-F4431AFC7456">
+<createdBy>it</createdBy>
+<createdTime>2025-02-14 01:47:47 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEPTNO" id="5CB718A2-D34B-6EE3-0988-DA709D3B4CB4">
+<createdBy>it</createdBy>
+<createdTime>2025-02-14 01:47:47 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ENAME" id="805CC871-8852-C5CC-7FAF-C7A8F1A6B591">
+<createdBy>it</createdBy>
+<createdTime>2025-02-14 01:47:47 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="COMM" id="869CF530-D811-E430-9E47-8E026CF14CEC">
+<createdBy>it</createdBy>
+<createdTime>2025-02-14 01:47:47 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="HIREDATE" id="B61FE6E4-4FBF-D959-D388-86CB9A0776FC">
+<createdBy>it</createdBy>
+<createdTime>2025-02-14 01:47:47 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SAL" id="CB8263DC-425F-B665-DF9E-BAB21CEB2647">
+<createdBy>it</createdBy>
+<createdTime>2025-02-14 01:47:47 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PK_EMP" id="1E9791EB-AEFF-9BE9-7D69-49F1877C19FB">
+<createdBy>it</createdBy>
+<createdTime>2025-02-14 01:47:49 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<schemaObject>3D942C4F-D8B7-67C6-8034-A601D638D2E3</schemaObject>
+<segment>7C4A2957-2D0F-C0A4-7899-498D3A1B7A4B</segment>
+<tableSpace>D6D4C089-BB2B-A224-554B-2A07C5DA4342</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="FK_DEPTNO" id="1EF36CF5-818D-026F-D0C5-5FAB4DB6F5B1">
+<createdBy>it</createdBy>
+<createdTime>2025-02-14 01:47:50 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PK_EMP" id="82001DE5-7764-4890-3F81-955A2A36F412">
+<createdBy>it</createdBy>
+<createdTime>2025-02-14 01:47:49 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<segment>7C4A2957-2D0F-C0A4-7899-498D3A1B7A4B</segment>
+<tableSpace>D6D4C089-BB2B-A224-554B-2A07C5DA4342</tableSpace>
+<existingIndex>1E9791EB-AEFF-9BE9-7D69-49F1877C19FB</existingIndex>
+<indexSegment>7C4A2957-2D0F-C0A4-7899-498D3A1B7A4B</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

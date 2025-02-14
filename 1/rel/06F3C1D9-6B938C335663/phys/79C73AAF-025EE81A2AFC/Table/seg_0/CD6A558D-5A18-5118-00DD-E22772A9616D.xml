@@ -1,0 +1,50 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev12c class="oracle.dbtools.crest.model.design.storage.oracle.v12c.TableProxyOraclev12c" name="DEPARTMENT" directorySegmentName="seg_0" id="CD6A558D-5A18-5118-00DD-E22772A9616D">
+<createdBy>it</createdBy>
+<createdTime>2025-02-14 05:14:58 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<schemaObject>560CE66C-A6DA-8518-BC94-5BCB9136A0BC</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>01221057-B1CD-69E7-1F08-9AAC3DB77655</segment>
+<tableSpace>BCB72DD5-D9F2-8B41-7094-71F2954BA0A4</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DNAME" id="29DCC962-64C1-E097-4F93-B9657F39D085">
+<createdBy>it</createdBy>
+<createdTime>2025-02-14 05:14:58 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BUILD" id="2BEC62C1-E87B-7F60-3C93-5F97EFAE3678">
+<createdBy>it</createdBy>
+<createdTime>2025-02-14 05:14:58 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DEPTNO" id="B7FA2375-A656-2E2A-EA7A-5F6A5F8FBAE2">
+<createdBy>it</createdBy>
+<createdTime>2025-02-14 05:14:58 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PART" id="F9CFD8B6-04EB-4CA6-8447-ED329CF094E4">
+<createdBy>it</createdBy>
+<createdTime>2025-02-14 05:14:58 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="DEPARTMENT_PK" id="D706682E-2F17-55DC-D5AE-2A146896FF32">
+<createdBy>it</createdBy>
+<createdTime>2025-02-14 05:14:58 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<schemaObject>560CE66C-A6DA-8518-BC94-5BCB9136A0BC</schemaObject>
+<segment>9FABFC1C-E41A-B01C-E6C4-A43A0DA0C68E</segment>
+<tableSpace>BCB72DD5-D9F2-8B41-7094-71F2954BA0A4</tableSpace>
+<indexSegment>9FABFC1C-E41A-B01C-E6C4-A43A0DA0C68E</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev12c>

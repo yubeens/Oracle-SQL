@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0902AE03-0CA8-EED7-359F-25761BBD5525" schemaObject="3D942C4F-D8B7-67C6-8034-A601D638D2E3" name="DEPT">
+<sourceConnName>SCOTT</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>DEPT</sourceObjName>
+<createdBy>it</createdBy>
+<createdTime>2025-02-14 01:48:52 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="DEPTNO" id="FAA533E1-0C74-08B4-B6A1-07AB0143AFBD">
+<sourceConnName>SCOTT</sourceConnName>
+<sourceObjSchema>DEPT</sourceObjSchema>
+<sourceObjName>DEPTNO</sourceObjName>
+<createdBy>it</createdBy>
+<createdTime>2025-02-14 01:48:52 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DNAME" id="BDF5112B-D05A-C758-9B55-D5D2854EA552">
+<sourceConnName>SCOTT</sourceConnName>
+<sourceObjSchema>DEPT</sourceObjSchema>
+<sourceObjName>DNAME</sourceObjName>
+<createdBy>it</createdBy>
+<createdTime>2025-02-14 01:48:52 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>14 BYTE</dataTypeSize>
+<ownDataTypeParameters>14 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="LOC" id="F366F4DB-193F-FDFE-5676-D512B5DB8F42">
+<sourceConnName>SCOTT</sourceConnName>
+<sourceObjSchema>DEPT</sourceObjSchema>
+<sourceObjName>LOC</sourceObjName>
+<createdBy>it</createdBy>
+<createdTime>2025-02-14 01:48:52 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>13 BYTE</dataTypeSize>
+<ownDataTypeParameters>13 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="87806199-E6EF-20E7-BAF7-A81D294B108C" name="PK_DEPT">
+<sourceConnName>SCOTT</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>PK_DEPT</sourceObjName>
+<createdBy>it</createdBy>
+<createdTime>2025-02-14 01:48:52 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FAA533E1-0C74-08B4-B6A1-07AB0143AFBD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3456DE67-5CE7-02D0-44C7-FC832B40EF5C" schemaObject="3D942C4F-D8B7-67C6-8034-A601D638D2E3" name="PK_DEPT">
+<sourceConnName>SCOTT</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>PK_DEPT</sourceObjName>
+<createdBy>it</createdBy>
+<createdTime>2025-02-14 01:48:52 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FAA533E1-0C74-08B4-B6A1-07AB0143AFBD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

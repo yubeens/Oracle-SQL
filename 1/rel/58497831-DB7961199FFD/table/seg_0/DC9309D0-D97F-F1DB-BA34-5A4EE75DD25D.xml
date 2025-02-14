@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DC9309D0-D97F-F1DB-BA34-5A4EE75DD25D" schemaObject="3D942C4F-D8B7-67C6-8034-A601D638D2E3" name="EMP_FK">
+<sourceConnName>SCOTT</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>EMP_FK</sourceObjName>
+<createdBy>it</createdBy>
+<createdTime>2025-02-14 01:47:52 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="EMPNO" id="D1A655CE-448C-EADE-504F-7142821B0CB0">
+<sourceConnName>SCOTT</sourceConnName>
+<sourceObjSchema>EMP_FK</sourceObjSchema>
+<sourceObjName>EMPNO</sourceObjName>
+<createdBy>it</createdBy>
+<createdTime>2025-02-14 01:47:52 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,2,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ENAME" id="01AA816A-AE11-1F85-3297-9FAC150BE777">
+<sourceConnName>SCOTT</sourceConnName>
+<sourceObjSchema>EMP_FK</sourceObjSchema>
+<sourceObjName>ENAME</sourceObjName>
+<createdBy>it</createdBy>
+<createdTime>2025-02-14 01:47:52 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="JOB" id="85E9A1C2-3901-43C4-47B1-27B6B480D05F">
+<sourceConnName>SCOTT</sourceConnName>
+<sourceObjSchema>EMP_FK</sourceObjSchema>
+<sourceObjName>JOB</sourceObjName>
+<createdBy>it</createdBy>
+<createdTime>2025-02-14 01:47:52 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPTNO" id="949D4D4E-3072-0EF4-3B9F-DF1B0E0E25ED">
+<sourceConnName>SCOTT</sourceConnName>
+<sourceObjSchema>EMP_FK</sourceObjSchema>
+<sourceObjName>DEPTNO</sourceObjName>
+<createdBy>it</createdBy>
+<createdTime>2025-02-14 01:47:52 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,5,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7D873918-C3D6-DF07-FE55-8A4A8E55B662" name="EMP_FK_EMPNO_PK">
+<sourceConnName>SCOTT</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>EMP_FK_EMPNO_PK</sourceObjName>
+<createdBy>it</createdBy>
+<createdTime>2025-02-14 01:47:52 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1A655CE-448C-EADE-504F-7142821B0CB0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2C16AEE2-B2D8-1CF6-4985-1E72D0FD4BCD" schemaObject="3D942C4F-D8B7-67C6-8034-A601D638D2E3" name="EMP_FK_EMPNO_PK">
+<sourceConnName>SCOTT</sourceConnName>
+<sourceObjSchema>SCOTT</sourceObjSchema>
+<sourceObjName>EMP_FK_EMPNO_PK</sourceObjName>
+<createdBy>it</createdBy>
+<createdTime>2025-02-14 01:47:52 UTC</createdTime>
+<ownerDesignName>1</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D1A655CE-448C-EADE-504F-7142821B0CB0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
